@@ -72,7 +72,7 @@ function App() {
           (
             <>
               <h1 style={{ textAlign: 'center' }}><u> VIỆT NAM + GLOBAL</u></h1>
-              <h5 style={{ textAlign: 'center' }}><u> {dataCovidVietNam.Date.slice(0,10)}</u></h5>
+              <h5 style={{ textAlign: 'center' }}><u> TUANTRAN {dataCovidVietNam.Date.slice(0,10)}</u></h5>
               <TableGlobal dataGlobal={dataCovidGlobal} dataVietNam={dataCovidVietNam} />
 
               <h1 style={{ textAlign: 'center' }}><u>TẤT CẢ CÁC QUỐC GIA KHÁC</u></h1>
